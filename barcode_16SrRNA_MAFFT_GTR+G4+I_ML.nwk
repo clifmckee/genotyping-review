@@ -1,0 +1,116 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=22;
+	taxlabels
+	B_alsatica_IBS-382_NZ_JH725020_16S
+	B_australis_Aust-NH1_NC_020300_16S
+	B_bacilliformis_KC583_NC_008783_16S
+	B_birtlesii_LL-WM9_NZ_JH725079_16S
+	B_bovis_91-4_NZ_CM001844_16S
+	B_clarridgeiae_73_NC_014932_16S
+	B_doshiae_NCTC-12862_NZ_JH725095_16S
+	B_elizabethae_Re6043vi_NZ_JH725141_16S
+	B_grahamii_as4aup_NC_012846_16S
+	B_henselae_Houston-1_NC_005956_16S
+	B_koehlerae_C-29_NZ_KL407334_16S
+	B_melophagi_K-2C_NZ_JH725081_16S
+	B_quintana_Toulouse_NC_005955_16S
+	B_rattimassiliensis_15908_NZ_JH725067_16S
+	B_rochalimae_ATCC-BAA-1498_NZ_KL407338_16S
+	B_schoenbuchensis_m07a_NZ_KB915628_16S
+	B_sp_DB5-6_NZ_JH725117_16S
+	B_tamiae_Th239_NZ_JH725147_16S
+	B_taylorii_8TBB_NZ_JH725054_16S
+	B_tribocorum_CIP-105476_NC_010161_16S
+	B_vinsonii_berkhoffii_Winnie_NC_020301_16S
+	B_washoensis_085-0475_NZ_JH725101_16S
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((((((((B_taylorii_8TBB_NZ_JH725054_16S:0.005649,B_birtlesii_LL-WM9_NZ_JH725079_16S:0.0):0.003688,B_doshiae_NCTC-12862_NZ_JH725095_16S:0.0):0.001824,B_sp_DB5-6_NZ_JH725117_16S:9.12E-4):0.0,(B_grahamii_as4aup_NC_012846_16S:0.0,B_rattimassiliensis_15908_NZ_JH725067_16S:0.005671):0.001841):7.98E-4,((B_tribocorum_CIP-105476_NC_010161_16S:8.91E-4,B_elizabethae_Re6043vi_NZ_JH725141_16S:0.006698):0.002808,(B_alsatica_IBS-382_NZ_JH725020_16S:0.010731,B_vinsonii_berkhoffii_Winnie_NC_020301_16S:0.003691):0.0):0.00196):8.85E-4,((B_henselae_Houston-1_NC_005956_16S:0.003,B_koehlerae_C-29_NZ_KL407334_16S:7.79E-4):0.002183,(B_quintana_Toulouse_NC_005955_16S:0.008873,B_washoensis_085-0475_NZ_JH725101_16S:0.002833):0.003872):0.002921):0.008408,(B_bacilliformis_KC583_NC_008783_16S:0.008573,(B_schoenbuchensis_m07a_NZ_KB915628_16S:0.001777,(B_bovis_91-4_NZ_CM001844_16S:9.42E-4,B_melophagi_K-2C_NZ_JH725081_16S:0.001908):0.002063):0.011952):0.007527):0.0,(B_australis_Aust-NH1_NC_020300_16S:0.011306,(B_rochalimae_ATCC-BAA-1498_NZ_KL407338_16S:0.003599,B_clarridgeiae_73_NC_014932_16S:0.003029):0.013546):0.002962,B_tamiae_Th239_NZ_JH725147_16S:0.027971);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Arial";
+	set branchLabels.fontSize=12;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=12;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=20.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=16;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

@@ -1,0 +1,116 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=22;
+	taxlabels
+	B_alsatica_IBS-382_2078_membrane_protein
+	B_australis_Aust-NH1_2078_membrane_protein
+	B_bacilliformis_KC583_2078_membrane_protein
+	B_birtlesii_LL-WM9_2078_membrane_protein
+	B_bovis_91-4_2078_membrane_protein
+	B_clarridgeiae_73_2078_membrane_protein
+	B_doshiae_NCTC-12862_2078_membrane_protein
+	B_elizabethae_Re6043vi_2078_membrane_protein
+	B_grahamii_as4aup_2078_membrane_protein
+	B_henselae_Houston-1_2078_membrane_protein
+	B_koehlerae_C-29_2078_membrane_protein
+	B_melophagi_K-2C_2078_membrane_protein
+	B_quintana_Toulouse_2078_membrane_protein
+	B_rattimassiliensis_15908_2078_membrane_protein
+	B_rochalimae_ATCC-BAA-1498_2078_membrane_protein
+	B_schoenbuchensis_m07a_2078_membrane_protein
+	B_sp_DB5-6_2078_membrane_protein
+	B_tamiae_Th239_2078_membrane_protein
+	B_taylorii_8TBB_2078_membrane_protein
+	B_tribocorum_CIP-105476_2078_membrane_protein
+	B_vinsonii_berkhoffii_Winnie_2078_membrane_protein
+	B_washoensis_085-0475_2078_membrane_protein
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((((((((B_elizabethae_Re6043vi_2078_membrane_protein:0.050173,B_tribocorum_CIP-105476_2078_membrane_protein:0.03708):0.028957,B_rattimassiliensis_15908_2078_membrane_protein:0.081311):0.017865,B_grahamii_as4aup_2078_membrane_protein:0.070041):0.165077,B_alsatica_IBS-382_2078_membrane_protein:0.109968):0.027748,(B_birtlesii_LL-WM9_2078_membrane_protein:0.216327,(B_vinsonii_berkhoffii_Winnie_2078_membrane_protein:0.124564,(B_sp_DB5-6_2078_membrane_protein:0.05525,B_taylorii_8TBB_2078_membrane_protein:0.066902):0.082021):0.017067):0.010583):0.022807,((B_henselae_Houston-1_2078_membrane_protein:0.02647,B_koehlerae_C-29_2078_membrane_protein:0.060406):0.080419,(B_quintana_Toulouse_2078_membrane_protein:0.096475,B_washoensis_085-0475_2078_membrane_protein:0.119821):0.01504):0.008341):0.029925,B_doshiae_NCTC-12862_2078_membrane_protein:0.145482):0.108611,B_australis_Aust-NH1_2078_membrane_protein:0.272198):0.061682,(B_rochalimae_ATCC-BAA-1498_2078_membrane_protein:0.087219,B_clarridgeiae_73_2078_membrane_protein:0.077821):0.242377):0.028108,(B_bovis_91-4_2078_membrane_protein:0.044832,(B_melophagi_K-2C_2078_membrane_protein:0.060229,B_schoenbuchensis_m07a_2078_membrane_protein:0.045275):0.022552):0.225387):1.0E-6,B_bacilliformis_KC583_2078_membrane_protein:0.423429,B_tamiae_Th239_2078_membrane_protein:1.914061);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Arial";
+	set branchLabels.fontSize=12;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=12;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=20.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=16;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

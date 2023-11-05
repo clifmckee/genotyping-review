@@ -1,0 +1,116 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=22;
+	taxlabels
+	B_alsatica_IBS-382_3109_ATP_synthase_F1_E
+	B_australis_Aust-NH1_3109_ATP_synthase_F1_E
+	B_bacilliformis_KC583_3109_ATP_synthase_F1_E
+	B_birtlesii_LL-WM9_3109_ATP_synthase_F1_E
+	B_bovis_91-4_3109_ATP_synthase_F1_E
+	B_clarridgeiae_73_3109_ATP_synthase_F1_E
+	B_doshiae_NCTC-12862_3109_ATP_synthase_F1_E
+	B_elizabethae_Re6043vi_3109_ATP_synthase_F1_E
+	B_grahamii_as4aup_3109_ATP_synthase_F1_E
+	B_henselae_Houston-1_3109_ATP_synthase_F1_E
+	B_koehlerae_C-29_3109_ATP_synthase_F1_E
+	B_melophagi_K-2C_3109_ATP_synthase_F1_E
+	B_quintana_Toulouse_3109_ATP_synthase_F1_E
+	B_rattimassiliensis_15908_3109_ATP_synthase_F1_E
+	B_rochalimae_ATCC-BAA-1498_3109_ATP_synthase_F1_E
+	B_schoenbuchensis_m07a_3109_ATP_synthase_F1_E
+	B_sp_DB5-6_3109_ATP_synthase_F1_E
+	B_tamiae_Th239_3109_ATP_synthase_F1_E
+	B_taylorii_8TBB_3109_ATP_synthase_F1_E
+	B_tribocorum_CIP-105476_3109_ATP_synthase_F1_E
+	B_vinsonii_berkhoffii_Winnie_3109_ATP_synthase_F1_E
+	B_washoensis_085-0475_3109_ATP_synthase_F1_E
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((((((((((B_elizabethae_Re6043vi_3109_ATP_synthase_F1_E:0.057719,B_tribocorum_CIP-105476_3109_ATP_synthase_F1_E:0.05263):0.01981,(B_grahamii_as4aup_3109_ATP_synthase_F1_E:0.034687,B_rattimassiliensis_15908_3109_ATP_synthase_F1_E:0.08773):0.027985):0.142084,(B_birtlesii_LL-WM9_3109_ATP_synthase_F1_E:0.214017,(B_sp_DB5-6_3109_ATP_synthase_F1_E:0.043174,B_taylorii_8TBB_3109_ATP_synthase_F1_E:0.053309):0.106419):0.008853):0.006777,(B_vinsonii_berkhoffii_Winnie_3109_ATP_synthase_F1_E:0.094067,B_alsatica_IBS-382_3109_ATP_synthase_F1_E:0.179574):0.024006):0.036232,(B_quintana_Toulouse_3109_ATP_synthase_F1_E:0.100312,(B_henselae_Houston-1_3109_ATP_synthase_F1_E:0.039567,B_koehlerae_C-29_3109_ATP_synthase_F1_E:0.029731):0.092768):0.041993):0.061317,B_doshiae_NCTC-12862_3109_ATP_synthase_F1_E:0.156571):0.035705,B_washoensis_085-0475_3109_ATP_synthase_F1_E:0.100284):0.13239,B_australis_Aust-NH1_3109_ATP_synthase_F1_E:0.313346):0.039191,(B_bovis_91-4_3109_ATP_synthase_F1_E:0.03818,(B_melophagi_K-2C_3109_ATP_synthase_F1_E:0.013982,B_schoenbuchensis_m07a_3109_ATP_synthase_F1_E:0.024656):0.025961):0.115362):0.0,(B_bacilliformis_KC583_3109_ATP_synthase_F1_E:0.318652,(B_rochalimae_ATCC-BAA-1498_3109_ATP_synthase_F1_E:0.126379,B_clarridgeiae_73_3109_ATP_synthase_F1_E:0.03861):0.299569):0.05182,B_tamiae_Th239_3109_ATP_synthase_F1_E:1.282902);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Arial";
+	set branchLabels.fontSize=12;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=12;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=20.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=16;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

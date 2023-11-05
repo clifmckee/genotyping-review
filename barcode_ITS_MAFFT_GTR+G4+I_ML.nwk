@@ -1,0 +1,115 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=21;
+	taxlabels
+	B_alsatica_IBS-382_AF312506_ITS
+	B_australis_Aust-NH1_DQ538396_ITS
+	B_bacilliformis_KC583_L26364_ITS
+	B_birtlesii_IBS-325_N40_ITS
+	B_bovis_91-4_AY116638_ITS
+	B_clarridgeiae_Houston-2_AF167989_ITS
+	B_doshiae_R18_AF442954_ITS
+	B_elizabethae_F9251_L35103_ITS
+	B_grahamii_V2_AJ269785_ITS
+	B_henselae_Houston-1_L35101_ITS
+	B_koehlerae_C-29_AF312490_ITS
+	B_melophagi_368_JF834886_ITS
+	B_quintana_Fuller_L35100_ITS
+	B_rattimassiliensis_15908_AY515121_ITS
+	B_rochalimae_BMGH_DQ683199_ITS
+	B_schoenbuchensis_R1_AY116639_ITS
+	B_tamiae_Th239_DQ395180_ITS
+	B_taylorii_WM9_AJ269788_ITS
+	B_tribocorum_IBS-506_AF312505_ITS
+	B_vinsonii_berkhoffii_93-CO1_AF167988_ITS
+	B_washoensis_085-0475_AB674256_ITS
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((((((((B_grahamii_V2_AJ269785_ITS:0.116035,B_tribocorum_IBS-506_AF312505_ITS:0.078435):0.006015,B_elizabethae_F9251_L35103_ITS:0.100076):0.097918,B_rattimassiliensis_15908_AY515121_ITS:0.190251):0.11099,B_vinsonii_berkhoffii_93-CO1_AF167988_ITS:0.29241):0.021456,B_quintana_Fuller_L35100_ITS:0.237943):0.04556,(B_henselae_Houston-1_L35101_ITS:0.045727,B_koehlerae_C-29_AF312490_ITS:0.067006):0.203637):0.015844,(B_doshiae_R18_AF442954_ITS:0.147479,(B_taylorii_WM9_AJ269788_ITS:0.003811,B_birtlesii_IBS-325_N40_ITS:0.046206):0.102619):0.11636):0.0,B_alsatica_IBS-382_AF312506_ITS:0.195807):0.05592,(B_australis_Aust-NH1_DQ538396_ITS:0.351286,B_bacilliformis_KC583_L26364_ITS:0.332484):0.164115):2.0E-6,B_washoensis_085-0475_AB674256_ITS:0.216629):1.0E-6,((B_rochalimae_BMGH_DQ683199_ITS:0.394604,B_clarridgeiae_Houston-2_AF167989_ITS:0.199188):0.283176,(B_schoenbuchensis_R1_AY116639_ITS:0.024753,(B_bovis_91-4_AY116638_ITS:0.276265,B_melophagi_368_JF834886_ITS:0.033642):0.066647):0.67784):0.0,B_tamiae_Th239_DQ395180_ITS:1.27016);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Arial";
+	set branchLabels.fontSize=12;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=12;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=20.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=16;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
